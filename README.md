@@ -140,6 +140,22 @@ npm run dev
 
 ---
 
+## 🚧 Upcoming Updates
+
+Stay tuned for even more premium features coming soon:
+
+- 📧 **Email Notifications:** Get instant updates on appointments, approvals, and messages directly in your inbox.
+- 🔔 **In-App Notifications:** Real-time alerts for new messages, appointment status changes, and admin actions.
+- 🗓️ **Calendar Sync:** Integrate your appointments with Google Calendar and Outlook.
+- 📱 **Mobile App:** Native iOS and Android apps for on-the-go access.
+- 🏆 **Gamification:** Badges, achievements, and leaderboards for active users.
+- 🌐 **Multi-language Support:** Use EduConnect in your preferred language.
+- 🧑‍💻 **Advanced Analytics:** Deeper insights for teachers and admins.
+
+> Have a feature request? [Open an issue](https://github.com/) or contact us!
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repo
