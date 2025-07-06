@@ -180,10 +180,7 @@ export default function LoginPage() {
                   <strong>Admin:</strong> admin@educonnect.com / admin123
                 </p>
                 <p>
-                  <strong>Teacher:</strong> teacher@educonnect.com / teacher123
-                </p>
-                <p>
-                  <strong>Student:</strong> student@educonnect.com / student123
+                  <strong>For Other:</strong>Have to register first.
                 </p>
               </div>
             </div>
