@@ -81,8 +81,19 @@ export default function TeacherDashboard() {
           }
           setUserData(data)
           setOnLeave(data.onLeave || false)
-          if (data.availability) {
+          // Fallback logic for availability
+          if (data.availability && Array.isArray(data.availability) && data.availability.length > 0) {
             setAvailability(data.availability)
+          } else {
+            setAvailability([
+              { day: "Monday", startTime: "09:00", endTime: "17:00", available: true },
+              { day: "Tuesday", startTime: "09:00", endTime: "17:00", available: true },
+              { day: "Wednesday", startTime: "09:00", endTime: "17:00", available: true },
+              { day: "Thursday", startTime: "09:00", endTime: "17:00", available: true },
+              { day: "Friday", startTime: "09:00", endTime: "17:00", available: true },
+              { day: "Saturday", startTime: "09:00", endTime: "17:00", available: false },
+              { day: "Sunday", startTime: "09:00", endTime: "17:00", available: false },
+            ])
           }
         }
         setUser(user)
