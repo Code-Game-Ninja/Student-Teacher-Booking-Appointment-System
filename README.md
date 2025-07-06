@@ -112,8 +112,7 @@ npm run dev
 │   └── teacher-layout.tsx
 ├── lib/
 │   └── firebase.ts     # Firebase config
-└── scripts/
-    └── firebase-rules.js # Security rules
+
 ```
 
 ---
@@ -151,12 +150,14 @@ MIT License
 
 ---
 
+## 😎Code-Game-Ninja (Chirag Mishra)
+
+## ✉️chiragmishra2511@gmail.com
+
 ## 🌐 Connect With Us
 
 <p align="center">
-  <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
-  <a href="https://linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
-  <a href="https://facebook.com/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/chirag-mishra-14b128337/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
 </p>
 
 ---
