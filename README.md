@@ -19,6 +19,12 @@
 
 ---
 
+<p align="center">
+Live Demo : https://eduportal-system.vercel.app/
+</p>
+
+---
+
 ## ✨ Why EduConnect?
 
 - **Premium Experience:** Modern, animated UI with smooth transitions and mobile-first design.
