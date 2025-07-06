@@ -11,6 +11,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
 import dynamic from "next/dynamic"
+import { FaGithub } from "react-icons/fa"
 
 // Dynamically import react-icons/fa for client-side only
 const FaTwitter = dynamic(() => import("react-icons/fa").then(mod => mod.FaTwitter), { ssr: false })
@@ -153,7 +154,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in-up animation-delay-200">
-            <Image src="/placeholder-logo.png" alt="Hero Illustration" width={350} height={350} className="rounded-2xl shadow-lg" />
+            <Image src="https://plus.unsplash.com/premium_photo-1681487732859-c2a780022063?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RWR1Y2F0aW9uJTIwUG9ydGFsfGVufDB8fDB8fHww" alt="Hero Illustration" width={350} height={350} className="rounded-2xl shadow-lg" />
           </div>
         </div>
       </section>
@@ -246,7 +247,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow-lg p-6 flex-1 animate-fade-in-up">
               <p className="text-lg text-gray-700 mb-4">“EduConnect made it so easy to find the perfect teacher for my needs. The booking process was seamless and the quality of teaching is top-notch!”</p>
               <div className="flex items-center justify-center gap-3">
-                <Image src="/placeholder-user.jpg" alt="Student" width={48} height={48} className="rounded-full" />
+                <Image src="https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Student" width={48} height={48} className="rounded-full" />
                 <div className="text-left">
                   <div className="font-semibold text-gray-900">Aarav S.</div>
                   <div className="text-sm text-gray-500">Student</div>
@@ -256,7 +257,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow-lg p-6 flex-1 animate-fade-in-up animation-delay-200">
               <p className="text-lg text-gray-700 mb-4">“As a teacher, I love how easy it is to manage my schedule and connect with students. The platform is intuitive and efficient.”</p>
               <div className="flex items-center justify-center gap-3">
-                <Image src="/placeholder-logo.png" alt="Teacher" width={48} height={48} className="rounded-full" />
+                <Image src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Teacher" width={48} height={48} className="rounded-full" />
                 <div className="text-left">
                   <div className="font-semibold text-gray-900">Priya M.</div>
                   <div className="text-sm text-gray-500">Teacher</div>
@@ -298,9 +299,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
           <div className="text-gray-500 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} EduConnect. All rights reserved.</div>
           <div className="flex space-x-4">
-            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-xl"><FaTwitter /></a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-xl"><FaLinkedin /></a>
-            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xl"><FaFacebook /></a>
+            <a href="https://www.linkedin.com/in/chirag-mishra-14b128337/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-xl"><FaLinkedin /></a>
+            <a href="https://github.com/Code-Game-Ninja" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xl"><FaGithub /></a>
           </div>
         </div>
       </footer>
