@@ -1,9 +1,4 @@
 # 🚀 EduConnect – Student-Teacher Management System
-
-<p align="center">
-  <img src="./public/placeholder-logo.png" alt="EduConnect Logo" width="120" />
-</p>
-
 <p align="center">
   <b>The Ultimate Platform for Modern Education</b><br/>
   <i>Empowering students, teachers, and administrators with seamless scheduling, communication, and analytics.</i>
